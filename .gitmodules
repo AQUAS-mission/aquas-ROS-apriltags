@@ -4,9 +4,6 @@
 [submodule "src/apriltag_ros"]
 	path = src/apriltag_ros
 	url = https://github.com/christianrauch/apriltag_ros.git
-[submodule "image_common"]
-	path = image_common
-	url = https://github.com/ros-perception/image_common.git
 [submodule "src/image_common"]
 	path = src/image_common
 	url = https://github.com/ros-perception/image_common.git
