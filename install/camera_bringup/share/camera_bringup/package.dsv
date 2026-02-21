@@ -1,0 +1,6 @@
+source;share/camera_bringup/hook/pythonpath.ps1
+source;share/camera_bringup/hook/pythonpath.dsv
+source;share/camera_bringup/hook/pythonpath.sh
+source;../../build/camera_bringup/share/camera_bringup/hook/pythonpath_develop.ps1
+source;../../build/camera_bringup/share/camera_bringup/hook/pythonpath_develop.dsv
+source;../../build/camera_bringup/share/camera_bringup/hook/pythonpath_develop.sh

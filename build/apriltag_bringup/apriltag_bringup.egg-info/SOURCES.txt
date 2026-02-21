@@ -1,0 +1,9 @@
+apriltag_bringup.py
+setup.cfg
+setup.py
+apriltag_bringup.egg-info/PKG-INFO
+apriltag_bringup.egg-info/SOURCES.txt
+apriltag_bringup.egg-info/dependency_links.txt
+apriltag_bringup.egg-info/requires.txt
+apriltag_bringup.egg-info/top_level.txt
+apriltag_bringup.egg-info/zip-safe

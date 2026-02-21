@@ -1,0 +1,23 @@
+[6.900s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/build --no-deps symlink_data
+[11.664s] running develop
+[18.957s] running egg_info
+[18.959s] creating aquas_camera_bringup.egg-info
+[18.963s] writing aquas_camera_bringup.egg-info/PKG-INFO
+[18.985s] writing dependency_links to aquas_camera_bringup.egg-info/dependency_links.txt
+[18.996s] writing entry points to aquas_camera_bringup.egg-info/entry_points.txt
+[19.008s] writing requirements to aquas_camera_bringup.egg-info/requires.txt
+[19.020s] writing top-level names to aquas_camera_bringup.egg-info/top_level.txt
+[19.024s] writing manifest file 'aquas_camera_bringup.egg-info/SOURCES.txt'
+[19.070s] reading manifest file 'aquas_camera_bringup.egg-info/SOURCES.txt'
+[19.090s] writing manifest file 'aquas_camera_bringup.egg-info/SOURCES.txt'
+[19.107s] running build_ext
+[19.114s] Creating /home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/python3.10/site-packages/aquas-camera-bringup.egg-link (link to .)
+[19.139s] 
+[19.141s] Installed /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup
+[19.143s] running symlink_data
+[19.147s] creating /home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/ament_index
+[19.149s] creating /home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/ament_index/resource_index
+[19.151s] creating /home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/ament_index/resource_index/packages
+[19.154s] symbolically linking /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/resource/aquas_camera_bringup -> /home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/ament_index/resource_index/packages
+[19.168s] symbolically linking /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/package.xml -> /home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup
+[20.142s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup' returned '0': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/build --no-deps symlink_data

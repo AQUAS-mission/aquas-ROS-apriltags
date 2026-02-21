@@ -1,0 +1,39 @@
+[12.311s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/build --no-deps symlink_data
+[433.855s] Traceback (most recent call last):
+[434.034s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2208, in _handle_ns
+[434.036s]     loader = importer.find_spec(packageName).loader
+[434.037s] AttributeError: 'NoneType' object has no attribute 'loader'
+[434.038s] 
+[434.039s] During handling of the above exception, another exception occurred:
+[434.040s] 
+[434.041s] Traceback (most recent call last):
+[434.041s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2213, in _handle_ns
+[434.042s]     loader = importer.find_module(packageName)
+[434.043s]   File "<frozen importlib._bootstrap_external>", line 578, in _find_module_shim
+[434.043s]   File "<frozen importlib._bootstrap_external>", line 1526, in find_loader
+[434.044s] KeyboardInterrupt
+[434.044s] 
+[434.044s] During handling of the above exception, another exception occurred:
+[434.045s] 
+[434.045s] Traceback (most recent call last):
+[434.045s]   File "/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/setup.py", line 1, in <module>
+[434.045s]     from setuptools import find_packages, setup
+[434.046s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[434.046s]     import setuptools.version
+[434.047s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[434.047s]     import pkg_resources
+[434.049s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[434.049s]     def _initialize_master_working_set():
+[434.049s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[434.050s]     f(*args, **kwargs)
+[434.050s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3292, in _initialize_master_working_set
+[434.050s]     tuple(
+[434.051s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3293, in <genexpr>
+[434.051s]     dist.activate(replace=False)
+[434.051s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2798, in activate
+[434.052s]     declare_namespace(pkg)
+[434.052s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2296, in declare_namespace
+[434.053s]     _handle_ns(packageName, path_item)
+[434.053s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2213, in _handle_ns
+[434.053s]     loader = importer.find_module(packageName)
+[434.054s] KeyboardInterrupt
