@@ -7,6 +7,7 @@ A ROS 2 system for detecting AprilTags using an RGB camera to help an autonomous
 ## Table of Contents
 
 1. [What is This Project?](#what-is-this-project)
+2. [Getting Started For Aquas Developers](#getting-started-for-aquas-developers)
 2. [Quick Start Guide](#quick-start-guide)
 3. [What is ROS 2?](#what-is-ros-2)
 4. [System Requirements](#system-requirements)
@@ -32,6 +33,43 @@ This project enables a robot (boat) to:
 -   Provide alignment errors (lateral offset, heading) to help the boat center itself for docking
 
 **Goal:** Detect tags at 1-3 meters with lateral error < 0.20m and heading error < 8°.
+
+---
+
+## Getting Started For Aquas Developers
+
+To get started on the project as an aquas member, follow these steps:
+1. **Talk to Daniel or Xavier** to get you added as a user on the raspberrry pi
+2. **Create your own fork** of this repository
+3. **Authorize your github account from the command line**: Use github from the commandline to sign in to your account
+```bash
+    gh auth login
+```
+-   You may have to create a [classic authentication token to login](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+4. **Git clone your fork of the repository**
+```bash
+    mkdir Developer
+    cd Developer
+    git clone <web-url-of-fork>
+```
+5. **Create an upstream remote to the main repository**
+```bash
+    cd Developer
+    cd aquas-ROS-apriltags
+    git remote add upstream https://github.com/AQUAS-mission/aquas-ROS-apriltags.git
+```
+6. **Run Colcon to make sure you are able to build the project**
+```bash
+    cd Developer/aquas-ROS-apriltags
+    colcon build --symlink-install
+```
+7. **Move the .bashrc file from the repository to your home directory**
+```bash
+    mv ~/.bashrc ~/.bashrc.backup
+    cd Developer/aquas-ROS-apriltags
+    cp ~/Developer/aquas-ROS-apriltags/.bashrc ~/.bashrc
+    source ~/.bashrc
+```
 
 ---
 
@@ -211,7 +249,7 @@ ros2 bag play <bag_file>  # replay
 A typical ROS 2 workspace looks like this:
 
 ```
-~/aquas_ws/                    # Workspace root
+~/aquas-ROS-apriltags/                    # Workspace root
 ├── src/                       # Source code
 │   ├── aquas_camera_bringup/  # Package 1
 │   ├── aquas_apriltag_bringup/# Package 2
@@ -224,7 +262,7 @@ A typical ROS 2 workspace looks like this:
 ### Build Workflow
 
 ```bash
-cd ~/aquas_ws
+cd ~/Developer/aquas-ROS-apriltags
 colcon build                   # Build all packages
 colcon build --packages-select aquas_dock_align  # Build one package
 source install/setup.bash      # Source your workspace
@@ -296,8 +334,8 @@ sudo apt install -y \
 
 ```bash
 # Create workspace
-mkdir -p ~/aquas_ws/src
-cd ~/aquas_ws/src
+mkdir -p ~/Developer/aquas-ROS-apriltags/src
+cd ~/Developer/aquas-ROS-apriltags/src
 
 # Clone AprilTag library and ROS wrapper
 git clone https://github.com/AprilRobotics/apriltag.git
@@ -313,7 +351,7 @@ git clone https://github.com/ros-perception/image_common.git -b humble
 ### Step 3: Create Project Packages
 
 ```bash
-cd ~/aquas_ws/src
+cd ~/Developer/aquas-ROS-apriltags/src
 
 # Create three packages
 ros2 pkg create aquas_camera_bringup --build-type ament_cmake --dependencies rclcpp sensor_msgs
@@ -324,14 +362,14 @@ ros2 pkg create aquas_dock_align --build-type ament_cmake --dependencies rclcpp 
 ### Step 4: Install Dependencies with rosdep
 
 ```bash
-cd ~/aquas_ws
+cd ~/Developer/aquas-ROS-apriltags
 rosdep install --from-paths src --ignore-src -r -y
 ```
 
 ### Step 5: Build Workspace
 
 ```bash
-cd ~/aquas_ws
+cd ~/Developer/aquas-ROS-apriltags
 colcon build --symlink-install
 source install/setup.bash
 ```
@@ -341,7 +379,7 @@ source install/setup.bash
 ### Step 6: Add Workspace to .bashrc
 
 ```bash
-echo "source ~/aquas_ws/install/setup.bash" >> ~/.bashrc
+echo "source ~/Developer/aquas-ROS-apriltags/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
@@ -494,8 +532,8 @@ rviz2
 For easier reuse, create a config file:
 
 ```bash
-mkdir -p ~/aquas_ws/src/aquas_apriltag_bringup/config
-nano ~/aquas_ws/src/aquas_apriltag_bringup/config/tags.yaml
+mkdir -p ~/Developeraquas-ROS-apriltags/src/aquas_apriltag_bringup/config
+nano ~/Developer/aquas-ROS-apriltags/src/aquas_apriltag_bringup/config/tags.yaml
 ```
 
 Paste:
@@ -514,7 +552,7 @@ apriltag:
 
 ```bash
 ros2 run apriltag_ros apriltag_node --ros-args \
-  --params-file ~/aquas_ws/src/aquas_apriltag_bringup/config/tags.yaml \
+  --params-file ~/Developer/aquas-ROS-apriltags/src/aquas_apriltag_bringup/config/tags.yaml \
   --remap /image_rect:=/image_raw \
   --remap /camera_info:=/camera_info
 ```
@@ -652,8 +690,8 @@ The calibration data is saved to `/tmp/calibrationdata.tar.gz`.
 
 ```bash
 # Extract the calibration
-mkdir -p ~/aquas_ws/src/aquas_camera_bringup/config
-cd ~/aquas_ws/src/aquas_camera_bringup/config
+mkdir -p ~/aquas-ROS-apriltags/src/aquas_camera_bringup/config
+cd ~/aquas-ROS-apriltags/src/aquas_camera_bringup/config
 tar -xzf /tmp/calibrationdata.tar.gz
 # This creates ost.yaml
 
@@ -678,13 +716,13 @@ mv ost.yaml camera.yaml
 ```bash
 ros2 run v4l2_camera v4l2_camera_node --ros-args \
   -p device:="/dev/video0" \
-  -p camera_info_url:="file:///home/<yourusername>/aquas_ws/src/aquas_camera_bringup/config/camera.yaml"
+  -p camera_info_url:="file:///home/<yourusername>/aquas-ROS-apriltags/src/aquas_camera_bringup/config/camera.yaml"
 ```
 
 **Method 2: Create a launch file** (recommended for reuse):
 
 ```bash
-nano ~/aquas_ws/src/aquas_camera_bringup/launch/camera_calib.launch.py
+nano ~/aquas-ROS-apriltags/src/aquas_camera_bringup/launch/camera_calib.launch.py
 ```
 
 ```python
@@ -787,7 +825,7 @@ Now that you can detect AprilTags with accurate poses, let's understand how the 
 ### Package Structure
 
 ```
-~/aquas_ws/src/
+~/aquas-ROS-apriltags/src/
 ├── aquas_camera_bringup/      # Camera launch files and configs
 │   ├── launch/
 │   │   ├── camera.launch.py          # Basic camera
@@ -1094,14 +1132,14 @@ sudo usermod -aG video $USER
 ```bash
 # Source ROS 2 environment
 source /opt/ros/humble/setup.bash
-source ~/aquas_ws/install/setup.bash
+source ~/aquas-ROS-apriltags/install/setup.bash
 ```
 
 ### "Package not found" Error
 
 ```bash
 # Rebuild workspace
-cd ~/aquas_ws
+cd ~/aquas-ROS-apriltags
 colcon build --symlink-install
 source install/setup.bash
 ```
