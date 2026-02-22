@@ -1,0 +1,406 @@
+[0.000000] (-) TimerEvent: {}
+[0.001417] (apriltag) JobQueued: {'identifier': 'apriltag', 'dependencies': OrderedDict()}
+[0.001857] (aquas_apriltag_bringup) JobQueued: {'identifier': 'aquas_apriltag_bringup', 'dependencies': OrderedDict()}
+[0.002046] (aquas_camera_bringup) JobQueued: {'identifier': 'aquas_camera_bringup', 'dependencies': OrderedDict()}
+[0.002151] (aquas_dock_align) JobQueued: {'identifier': 'aquas_dock_align', 'dependencies': OrderedDict()}
+[0.002245] (camera_calibration_parsers) JobQueued: {'identifier': 'camera_calibration_parsers', 'dependencies': OrderedDict()}
+[0.002338] (camera_info_manager_py) JobQueued: {'identifier': 'camera_info_manager_py', 'dependencies': OrderedDict()}
+[0.002429] (image_transport) JobQueued: {'identifier': 'image_transport', 'dependencies': OrderedDict()}
+[0.002518] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict([('apriltag', '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag'), ('image_transport', '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport')])}
+[0.002626] (camera_info_manager) JobQueued: {'identifier': 'camera_info_manager', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers')])}
+[0.002722] (image_common) JobQueued: {'identifier': 'image_common', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers'), ('image_transport', '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport'), ('camera_info_manager', '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager')])}
+[0.002832] (camera_calibration_parsers) JobStarted: {'identifier': 'camera_calibration_parsers'}
+[0.051507] (image_transport) JobStarted: {'identifier': 'image_transport'}
+[0.073172] (apriltag) JobStarted: {'identifier': 'apriltag'}
+[0.094853] (aquas_apriltag_bringup) JobStarted: {'identifier': 'aquas_apriltag_bringup'}
+[0.097573] (-) TimerEvent: {}
+[0.141828] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'cmake'}
+[0.150225] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'build'}
+[0.153592] (camera_calibration_parsers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers', '--', '-j4', '-l4'], 'cwd': '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xavier'), ('SSH_CLIENT', '10.207.118.216 42118 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/xavier'), ('OLDPWD', '/home/xavier/Developer'), ('SSH_TTY', '/dev/pts/10'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xavier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers'), ('SSH_CONNECTION', '10.207.118.216 42118 10.207.26.163 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.173202] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'cmake'}
+[0.181729] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'build'}
+[0.190457] (image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport', '--', '-j4', '-l4'], 'cwd': '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xavier'), ('SSH_CLIENT', '10.207.118.216 42118 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/xavier'), ('OLDPWD', '/home/xavier/Developer'), ('SSH_TTY', '/dev/pts/10'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xavier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport'), ('SSH_CONNECTION', '10.207.118.216 42118 10.207.26.163 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.195517] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'cmake'}
+[0.197748] (-) TimerEvent: {}
+[0.204828] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'build'}
+[0.206494] (apriltag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag', '--', '-j4', '-l4'], 'cwd': '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xavier'), ('SSH_CLIENT', '10.207.118.216 42118 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/xavier'), ('OLDPWD', '/home/xavier/Developer'), ('SSH_TTY', '/dev/pts/10'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xavier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag'), ('SSH_CONNECTION', '10.207.118.216 42118 10.207.26.163 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.298102] (-) TimerEvent: {}
+[0.398999] (-) TimerEvent: {}
+[0.500009] (-) TimerEvent: {}
+[0.608804] (-) TimerEvent: {}
+[0.710115] (-) TimerEvent: {}
+[0.811144] (-) TimerEvent: {}
+[0.833871] (apriltag) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx\x1b[0m\n'}
+[0.846824] (apriltag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag\x1b[0m\n'}
+[0.878574] (apriltag) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx\x1b[0m\n'}
+[0.880765] (apriltag) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating apriltag_estimate_tag_pose_docstring.h, apriltag_estimate_tag_pose_docstring.cxx\x1b[0m\n'}
+[0.911390] (-) TimerEvent: {}
+[1.008427] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_transport\x1b[0m\n'}
+[1.011914] (-) TimerEvent: {}
+[1.022950] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[1.112066] (-) TimerEvent: {}
+[1.134319] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[1.135431] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_calibration_parsers\x1b[0m\n'}
+[1.179657] (camera_calibration_parsers) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.212310] (-) TimerEvent: {}
+[1.285380] (image_transport) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.308122] (image_transport) StdoutLine: {'line': b'[ 10%] Built target gtest_main\n'}
+[1.312570] (-) TimerEvent: {}
+[1.326087] (apriltag) StdoutLine: {'line': b'[  6%] Built target apriltag_py_docstrings\n'}
+[1.330301] (camera_calibration_parsers) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o\x1b[0m\n'}
+[1.364321] (camera_calibration_parsers) StdoutLine: {'line': b'[ 28%] Built target gtest_main\n'}
+[1.375059] (image_transport) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[1.386059] (image_transport) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.395231] (apriltag) StdoutLine: {'line': b'[ 86%] Built target apriltag\n'}
+[1.409292] (image_transport) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o\x1b[0m\n'}
+[1.412906] (-) TimerEvent: {}
+[1.448217] (camera_calibration_parsers) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o\x1b[0m\n'}
+[1.514102] (-) TimerEvent: {}
+[1.537698] (apriltag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag.cpython-310-aarch64-linux-gnu\x1b[0m\n'}
+[1.584153] (apriltag) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o\x1b[0m\n'}
+[1.600133] (apriltag) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o\x1b[0m\n'}
+[1.614332] (-) TimerEvent: {}
+[1.716615] (-) TimerEvent: {}
+[1.763348] (apriltag) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/apriltag_pywrap.c.o\x1b[0m\n'}
+[1.816818] (-) TimerEvent: {}
+[1.918685] (-) TimerEvent: {}
+[2.019592] (-) TimerEvent: {}
+[2.121063] (-) TimerEvent: {}
+[2.222942] (-) TimerEvent: {}
+[2.324630] (-) TimerEvent: {}
+[2.426568] (-) TimerEvent: {}
+[2.529573] (-) TimerEvent: {}
+[2.631285] (-) TimerEvent: {}
+[2.733112] (-) TimerEvent: {}
+[2.835259] (-) TimerEvent: {}
+[2.953128] (-) TimerEvent: {}
+[3.054774] (-) TimerEvent: {}
+[3.157743] (-) TimerEvent: {}
+[3.259332] (-) TimerEvent: {}
+[3.360891] (-) TimerEvent: {}
+[3.462752] (-) TimerEvent: {}
+[3.564508] (-) TimerEvent: {}
+[3.666333] (-) TimerEvent: {}
+[3.767857] (-) TimerEvent: {}
+[3.869478] (-) TimerEvent: {}
+[3.971460] (-) TimerEvent: {}
+[4.073808] (-) TimerEvent: {}
+[4.178872] (-) TimerEvent: {}
+[4.281120] (-) TimerEvent: {}
+[4.383334] (-) TimerEvent: {}
+[4.485325] (-) TimerEvent: {}
+[4.586397] (-) TimerEvent: {}
+[4.687421] (-) TimerEvent: {}
+[4.788552] (-) TimerEvent: {}
+[4.893832] (-) TimerEvent: {}
+[4.997298] (-) TimerEvent: {}
+[5.098484] (-) TimerEvent: {}
+[5.186430] (apriltag) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C executable apriltag_demo\x1b[0m\n'}
+[5.198803] (-) TimerEvent: {}
+[5.301054] (-) TimerEvent: {}
+[5.403440] (-) TimerEvent: {}
+[5.505316] (-) TimerEvent: {}
+[5.606553] (-) TimerEvent: {}
+[5.709602] (-) TimerEvent: {}
+[5.811796] (-) TimerEvent: {}
+[5.826100] (apriltag) StdoutLine: {'line': b'[ 95%] Built target apriltag_demo\n'}
+[5.912074] (-) TimerEvent: {}
+[5.927268] (apriltag) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module apriltag.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[6.012371] (-) TimerEvent: {}
+[6.113440] (-) TimerEvent: {}
+[6.214614] (-) TimerEvent: {}
+[6.317252] (-) TimerEvent: {}
+[6.364495] (apriltag) StdoutLine: {'line': b'[ 97%] Built target apriltag.cpython-310-aarch64-linux-gnu\n'}
+[6.417637] (-) TimerEvent: {}
+[6.518732] (-) TimerEvent: {}
+[6.620074] (-) TimerEvent: {}
+[6.722027] (-) TimerEvent: {}
+[6.824319] (-) TimerEvent: {}
+[6.926277] (-) TimerEvent: {}
+[7.028565] (-) TimerEvent: {}
+[7.130735] (-) TimerEvent: {}
+[7.233823] (-) TimerEvent: {}
+[7.335883] (-) TimerEvent: {}
+[7.438207] (-) TimerEvent: {}
+[7.540633] (-) TimerEvent: {}
+[7.642837] (-) TimerEvent: {}
+[7.745250] (-) TimerEvent: {}
+[7.847611] (-) TimerEvent: {}
+[7.961304] (-) TimerEvent: {}
+[8.063769] (-) TimerEvent: {}
+[8.164953] (-) TimerEvent: {}
+[8.266294] (-) TimerEvent: {}
+[8.367659] (-) TimerEvent: {}
+[8.469073] (-) TimerEvent: {}
+[8.571173] (-) TimerEvent: {}
+[8.673510] (-) TimerEvent: {}
+[8.775691] (-) TimerEvent: {}
+[8.878060] (-) TimerEvent: {}
+[8.979907] (-) TimerEvent: {}
+[9.081916] (-) TimerEvent: {}
+[9.183812] (-) TimerEvent: {}
+[9.285107] (-) TimerEvent: {}
+[9.386244] (-) TimerEvent: {}
+[9.487650] (-) TimerEvent: {}
+[9.589862] (-) TimerEvent: {}
+[9.691350] (-) TimerEvent: {}
+[9.794093] (-) TimerEvent: {}
+[9.896596] (-) TimerEvent: {}
+[9.999494] (-) TimerEvent: {}
+[10.103072] (-) TimerEvent: {}
+[10.205991] (-) TimerEvent: {}
+[10.307309] (-) TimerEvent: {}
+[10.408672] (-) TimerEvent: {}
+[10.512093] (-) TimerEvent: {}
+[10.613505] (-) TimerEvent: {}
+[10.715472] (-) TimerEvent: {}
+[10.817719] (-) TimerEvent: {}
+[10.919729] (-) TimerEvent: {}
+[11.021908] (-) TimerEvent: {}
+[11.124511] (-) TimerEvent: {}
+[11.227203] (-) TimerEvent: {}
+[11.328467] (-) TimerEvent: {}
+[11.430940] (-) TimerEvent: {}
+[11.533252] (-) TimerEvent: {}
+[11.635907] (-) TimerEvent: {}
+[11.738347] (-) TimerEvent: {}
+[11.840886] (-) TimerEvent: {}
+[11.944297] (-) TimerEvent: {}
+[12.047379] (-) TimerEvent: {}
+[12.150514] (-) TimerEvent: {}
+[12.253116] (-) TimerEvent: {}
+[12.355847] (-) TimerEvent: {}
+[12.400816] (aquas_apriltag_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'xavier', 'SSH_CLIENT': '10.207.118.216 42118 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/xavier', 'OLDPWD': '/home/xavier/Developer', 'SSH_TTY': '/dev/pts/10', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'xavier', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-kitty', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '101', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup', 'SSH_CONNECTION': '10.207.118.216 42118 10.207.26.163 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[12.456113] (-) TimerEvent: {}
+[12.558923] (-) TimerEvent: {}
+[12.661633] (-) TimerEvent: {}
+[12.764433] (-) TimerEvent: {}
+[12.867037] (-) TimerEvent: {}
+[12.976542] (-) TimerEvent: {}
+[13.079943] (-) TimerEvent: {}
+[13.182667] (-) TimerEvent: {}
+[13.284058] (-) TimerEvent: {}
+[13.386619] (-) TimerEvent: {}
+[13.493796] (-) TimerEvent: {}
+[13.596130] (-) TimerEvent: {}
+[13.698452] (-) TimerEvent: {}
+[13.800814] (-) TimerEvent: {}
+[13.903367] (-) TimerEvent: {}
+[14.006171] (-) TimerEvent: {}
+[14.108650] (-) TimerEvent: {}
+[14.211716] (-) TimerEvent: {}
+[14.314386] (-) TimerEvent: {}
+[14.417094] (-) TimerEvent: {}
+[14.519654] (-) TimerEvent: {}
+[14.622431] (-) TimerEvent: {}
+[14.741746] (-) TimerEvent: {}
+[14.843804] (-) TimerEvent: {}
+[14.946529] (-) TimerEvent: {}
+[15.048898] (-) TimerEvent: {}
+[15.151757] (-) TimerEvent: {}
+[15.254400] (-) TimerEvent: {}
+[15.355726] (-) TimerEvent: {}
+[15.458090] (-) TimerEvent: {}
+[15.561090] (-) TimerEvent: {}
+[15.701688] (-) TimerEvent: {}
+[15.809196] (-) TimerEvent: {}
+[15.979046] (-) TimerEvent: {}
+[16.201769] (-) TimerEvent: {}
+[16.310228] (-) TimerEvent: {}
+[16.412981] (-) TimerEvent: {}
+[16.515407] (-) TimerEvent: {}
+[16.617976] (-) TimerEvent: {}
+[16.720312] (-) TimerEvent: {}
+[16.822743] (-) TimerEvent: {}
+[16.925165] (-) TimerEvent: {}
+[17.027524] (-) TimerEvent: {}
+[17.130087] (-) TimerEvent: {}
+[17.232234] (-) TimerEvent: {}
+[17.335030] (-) TimerEvent: {}
+[17.437699] (-) TimerEvent: {}
+[17.540408] (-) TimerEvent: {}
+[17.643041] (-) TimerEvent: {}
+[17.747661] (-) TimerEvent: {}
+[17.850360] (-) TimerEvent: {}
+[17.952650] (-) TimerEvent: {}
+[18.055201] (-) TimerEvent: {}
+[18.181746] (-) TimerEvent: {}
+[18.298003] (-) TimerEvent: {}
+[18.413927] (-) TimerEvent: {}
+[18.516270] (-) TimerEvent: {}
+[18.629788] (-) TimerEvent: {}
+[18.731817] (-) TimerEvent: {}
+[18.841679] (-) TimerEvent: {}
+[18.954814] (-) TimerEvent: {}
+[19.057639] (-) TimerEvent: {}
+[19.160116] (-) TimerEvent: {}
+[19.262703] (-) TimerEvent: {}
+[19.365046] (-) TimerEvent: {}
+[19.466510] (-) TimerEvent: {}
+[19.567670] (-) TimerEvent: {}
+[19.668554] (-) TimerEvent: {}
+[19.769978] (-) TimerEvent: {}
+[19.871293] (-) TimerEvent: {}
+[19.972731] (-) TimerEvent: {}
+[20.074309] (-) TimerEvent: {}
+[20.175758] (-) TimerEvent: {}
+[20.277045] (-) TimerEvent: {}
+[20.378441] (-) TimerEvent: {}
+[20.479782] (-) TimerEvent: {}
+[20.582151] (-) TimerEvent: {}
+[20.683012] (-) TimerEvent: {}
+[20.784096] (-) TimerEvent: {}
+[20.885128] (-) TimerEvent: {}
+[20.986538] (-) TimerEvent: {}
+[21.087857] (-) TimerEvent: {}
+[21.189123] (-) TimerEvent: {}
+[21.290569] (-) TimerEvent: {}
+[21.391435] (-) TimerEvent: {}
+[21.492868] (-) TimerEvent: {}
+[21.594345] (-) TimerEvent: {}
+[21.695515] (-) TimerEvent: {}
+[21.796862] (-) TimerEvent: {}
+[21.898176] (-) TimerEvent: {}
+[21.999392] (-) TimerEvent: {}
+[22.100772] (-) TimerEvent: {}
+[22.202084] (-) TimerEvent: {}
+[22.303381] (-) TimerEvent: {}
+[22.404605] (-) TimerEvent: {}
+[22.505684] (-) TimerEvent: {}
+[22.606952] (-) TimerEvent: {}
+[22.708070] (-) TimerEvent: {}
+[22.809660] (-) TimerEvent: {}
+[22.911095] (-) TimerEvent: {}
+[23.012364] (-) TimerEvent: {}
+[23.115328] (-) TimerEvent: {}
+[23.227023] (-) TimerEvent: {}
+[23.349775] (-) TimerEvent: {}
+[23.452214] (-) TimerEvent: {}
+[23.554409] (-) TimerEvent: {}
+[23.656777] (-) TimerEvent: {}
+[23.759355] (-) TimerEvent: {}
+[23.860888] (-) TimerEvent: {}
+[23.961938] (-) TimerEvent: {}
+[24.063248] (-) TimerEvent: {}
+[24.164591] (-) TimerEvent: {}
+[24.265990] (-) TimerEvent: {}
+[24.367178] (-) TimerEvent: {}
+[24.468704] (-) TimerEvent: {}
+[24.570119] (-) TimerEvent: {}
+[24.671244] (-) TimerEvent: {}
+[24.772801] (-) TimerEvent: {}
+[24.874021] (-) TimerEvent: {}
+[24.975313] (-) TimerEvent: {}
+[25.076762] (-) TimerEvent: {}
+[25.178287] (-) TimerEvent: {}
+[25.279411] (-) TimerEvent: {}
+[25.380644] (-) TimerEvent: {}
+[25.481869] (-) TimerEvent: {}
+[25.583910] (-) TimerEvent: {}
+[25.685133] (-) TimerEvent: {}
+[25.786514] (-) TimerEvent: {}
+[25.887668] (-) TimerEvent: {}
+[25.989130] (-) TimerEvent: {}
+[26.090819] (-) TimerEvent: {}
+[26.192262] (-) TimerEvent: {}
+[26.293561] (-) TimerEvent: {}
+[26.394442] (-) TimerEvent: {}
+[26.495786] (-) TimerEvent: {}
+[26.597198] (-) TimerEvent: {}
+[26.699756] (-) TimerEvent: {}
+[26.801617] (-) TimerEvent: {}
+[26.902426] (-) TimerEvent: {}
+[27.003622] (-) TimerEvent: {}
+[27.105050] (-) TimerEvent: {}
+[27.206378] (-) TimerEvent: {}
+[27.307616] (-) TimerEvent: {}
+[27.409228] (-) TimerEvent: {}
+[27.510293] (-) TimerEvent: {}
+[27.611473] (-) TimerEvent: {}
+[27.712802] (-) TimerEvent: {}
+[27.814272] (-) TimerEvent: {}
+[27.916346] (-) TimerEvent: {}
+[28.018463] (-) TimerEvent: {}
+[28.119373] (-) TimerEvent: {}
+[28.220610] (-) TimerEvent: {}
+[29.381568] (-) TimerEvent: {}
+[29.482967] (-) TimerEvent: {}
+[29.584203] (-) TimerEvent: {}
+[29.685689] (-) TimerEvent: {}
+[29.787032] (-) TimerEvent: {}
+[29.888380] (-) TimerEvent: {}
+[29.989714] (-) TimerEvent: {}
+[30.091057] (-) TimerEvent: {}
+[30.494480] (-) TimerEvent: {}
+[35.400668] (-) TimerEvent: {}
+[38.138636] (-) TimerEvent: {}
+[46.833197] (-) TimerEvent: {}
+[47.611902] (-) TimerEvent: {}
+[50.525196] (-) TimerEvent: {}
+[52.462630] (-) TimerEvent: {}
+[55.460070] (-) TimerEvent: {}
+[55.960825] (-) TimerEvent: {}
+[56.262088] (-) TimerEvent: {}
+[56.563116] (-) TimerEvent: {}
+[57.551270] (-) TimerEvent: {}
+[127.301359] (-) TimerEvent: {}
+[431.431410] (-) TimerEvent: {}
+[432.800432] (camera_calibration_parsers) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/camera_calibration_parsers.dir/build.make:104: CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o] Interrupt\n'}
+[433.868829] (-) TimerEvent: {}
+[433.875374] (aquas_apriltag_bringup) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[433.967494] (apriltag) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/opencv_demo.dir/build.make:76: CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o] Interrupt\n'}
+[434.042625] (-) TimerEvent: {}
+[434.081170] (camera_calibration_parsers) StderrLine: {'line': b'gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt\n'}
+[434.101198] (camera_calibration_parsers) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:269: gtest/CMakeFiles/gtest.dir/all] Interrupt\n'}
+[434.118175] (image_transport) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_transport.dir/build.make:104: CMakeFiles/image_transport.dir/src/subscriber.cpp.o] Interrupt\n'}
+[434.128410] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2208, in _handle_ns\n'}
+[434.129175] (camera_calibration_parsers) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[434.129831] (apriltag) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/opencv_demo.dir/all] Interrupt\n'}
+[434.130638] (image_transport) StderrLine: {'line': b'gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt\n'}
+[434.131396] (aquas_apriltag_bringup) StderrLine: {'line': b'    loader = importer.find_spec(packageName).loader\n'}
+[434.131919] (aquas_apriltag_bringup) StderrLine: {'line': b"AttributeError: 'NoneType' object has no attribute 'loader'\n"}
+[434.132383] (image_transport) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:445: gtest/CMakeFiles/gtest.dir/all] Interrupt\n'}
+[434.132843] (aquas_apriltag_bringup) StderrLine: {'line': b'\n'}
+[434.133291] (apriltag) StderrLine: {'line': b'gmake: *** [Makefile:136: all] Interrupt\n'}
+[434.133838] (image_transport) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[434.134365] (aquas_apriltag_bringup) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[434.135068] (aquas_apriltag_bringup) StderrLine: {'line': b'\n'}
+[434.135844] (aquas_apriltag_bringup) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[434.136467] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2213, in _handle_ns\n'}
+[434.136948] (aquas_apriltag_bringup) StderrLine: {'line': b'    loader = importer.find_module(packageName)\n'}
+[434.137589] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "<frozen importlib._bootstrap_external>", line 578, in _find_module_shim\n'}
+[434.138214] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "<frozen importlib._bootstrap_external>", line 1526, in find_loader\n'}
+[434.138695] (aquas_apriltag_bringup) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[434.139126] (aquas_apriltag_bringup) StderrLine: {'line': b'\n'}
+[434.139456] (aquas_apriltag_bringup) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[434.139780] (aquas_apriltag_bringup) StderrLine: {'line': b'\n'}
+[434.140094] (aquas_apriltag_bringup) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[434.140412] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/setup.py", line 1, in <module>\n'}
+[434.140737] (aquas_apriltag_bringup) StderrLine: {'line': b'    from setuptools import find_packages, setup\n'}
+[434.141053] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[434.141530] (aquas_apriltag_bringup) StderrLine: {'line': b'    import setuptools.version\n'}
+[434.142038] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n'}
+[434.142386] (aquas_apriltag_bringup) StderrLine: {'line': b'    import pkg_resources\n'}
+[434.142734] (-) TimerEvent: {}
+[434.143639] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>\n'}
+[434.144195] (aquas_apriltag_bringup) StderrLine: {'line': b'    def _initialize_master_working_set():\n'}
+[434.144541] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n'}
+[434.144871] (aquas_apriltag_bringup) StderrLine: {'line': b'    f(*args, **kwargs)\n'}
+[434.145191] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3292, in _initialize_master_working_set\n'}
+[434.145598] (aquas_apriltag_bringup) StderrLine: {'line': b'    tuple(\n'}
+[434.145933] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3293, in <genexpr>\n'}
+[434.146253] (aquas_apriltag_bringup) StderrLine: {'line': b'    dist.activate(replace=False)\n'}
+[434.146571] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2798, in activate\n'}
+[434.146894] (aquas_apriltag_bringup) StderrLine: {'line': b'    declare_namespace(pkg)\n'}
+[434.147387] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2296, in declare_namespace\n'}
+[434.147820] (aquas_apriltag_bringup) StderrLine: {'line': b'    _handle_ns(packageName, path_item)\n'}
+[434.148211] (aquas_apriltag_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2213, in _handle_ns\n'}
+[434.148616] (aquas_apriltag_bringup) StderrLine: {'line': b'    loader = importer.find_module(packageName)\n'}
+[434.149111] (aquas_apriltag_bringup) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[434.149821] (aquas_camera_bringup) JobSkipped: {'identifier': 'aquas_camera_bringup'}
+[434.150029] (aquas_dock_align) JobSkipped: {'identifier': 'aquas_dock_align'}
+[434.150136] (camera_info_manager_py) JobSkipped: {'identifier': 'camera_info_manager_py'}
+[434.150300] (apriltag_ros) JobSkipped: {'identifier': 'apriltag_ros'}
+[434.150421] (camera_info_manager) JobSkipped: {'identifier': 'camera_info_manager'}
+[434.150554] (image_common) JobSkipped: {'identifier': 'image_common'}
+[434.155535] (-) EventReactorShutdown: {}

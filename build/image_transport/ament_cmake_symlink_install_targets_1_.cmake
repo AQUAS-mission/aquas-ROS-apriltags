@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport/list_transports" "/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport/republish" "TARGETS" "list_transports" "republish" "RUNTIME_DESTINATION" "lib/image_transport")

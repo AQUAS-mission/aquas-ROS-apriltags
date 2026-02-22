@@ -1,0 +1,14 @@
+running develop
+running egg_info
+creating apriltag_bringup.egg-info
+writing apriltag_bringup.egg-info/PKG-INFO
+writing dependency_links to apriltag_bringup.egg-info/dependency_links.txt
+writing requirements to apriltag_bringup.egg-info/requires.txt
+writing top-level names to apriltag_bringup.egg-info/top_level.txt
+writing manifest file 'apriltag_bringup.egg-info/SOURCES.txt'
+reading manifest file 'apriltag_bringup.egg-info/SOURCES.txt'
+writing manifest file 'apriltag_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_bringup/lib/python3.10/site-packages/apriltag-bringup.egg-link (link to .)
+
+Installed /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_bringup

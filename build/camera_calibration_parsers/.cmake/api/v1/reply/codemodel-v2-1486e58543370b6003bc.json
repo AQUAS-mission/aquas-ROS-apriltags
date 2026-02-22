@@ -1,0 +1,157 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-174bf05c747dda957ec2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "camera_calibration_parsers",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_calibration_parsers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_calibration_parsers-8eeff00bfab59c4f9b34.json",
+					"name" : "camera_calibration_parsers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_calibration_parsers-parse_ini::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_calibration_parsers-parse_ini-8dfb9d82531aacb143ef.json",
+					"name" : "camera_calibration_parsers-parse_ini",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_calibration_parsers-parse_yml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_calibration_parsers-parse_yml-15464c417cb2315def7f.json",
+					"name" : "camera_calibration_parsers-parse_yml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_calibration_parsers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_calibration_parsers_uninstall-73874ed11564206266c8.json",
+					"name" : "camera_calibration_parsers_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "convert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-convert-a656d69d12a9c918476a.json",
+					"name" : "convert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-8bbf6bfb308cd04c3f76.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-09935f57594ba8bbb9c6.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d54a2a47f469a9a49685.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers",
+		"source" : "/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_calibration_parsers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

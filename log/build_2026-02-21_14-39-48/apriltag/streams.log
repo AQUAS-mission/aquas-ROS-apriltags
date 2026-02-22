@@ -1,0 +1,18 @@
+[0.149s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag -- -j4 -l4
+[0.761s] [  2%] [34m[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx[0m
+[0.774s] [35m[1mConsolidate compiler generated dependencies of target apriltag[0m
+[0.805s] [  4%] [34m[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx[0m
+[0.808s] [  6%] [34m[1mGenerating apriltag_estimate_tag_pose_docstring.h, apriltag_estimate_tag_pose_docstring.cxx[0m
+[1.253s] [  6%] Built target apriltag_py_docstrings
+[1.322s] [ 86%] Built target apriltag
+[1.465s] [35m[1mConsolidate compiler generated dependencies of target apriltag.cpython-310-aarch64-linux-gnu[0m
+[1.511s] [ 88%] [32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o[0m
+[1.527s] [ 90%] [32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o[0m
+[1.690s] [ 93%] [32mBuilding C object CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/apriltag_pywrap.c.o[0m
+[5.113s] [ 95%] [32m[1mLinking C executable apriltag_demo[0m
+[5.753s] [ 95%] Built target apriltag_demo
+[5.854s] [ 97%] [32m[1mLinking C shared module apriltag.cpython-310-aarch64-linux-gnu.so[0m
+[6.291s] [ 97%] Built target apriltag.cpython-310-aarch64-linux-gnu
+[433.931s] gmake[2]: *** [CMakeFiles/opencv_demo.dir/build.make:76: CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o] Interrupt
+[434.057s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/opencv_demo.dir/all] Interrupt
+[434.060s] gmake: *** [Makefile:136: all] Interrupt

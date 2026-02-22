@@ -1,0 +1,39 @@
+[4.736s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_info_manager_py': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/camera_info_manager_py build --build-base /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build install --record /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/install.log --single-version-externally-managed install_data
+[7.033s] running egg_info
+[7.038s] creating ../../../build/camera_info_manager_py/camera_info_manager_py.egg-info
+[7.040s] writing ../../../build/camera_info_manager_py/camera_info_manager_py.egg-info/PKG-INFO
+[7.042s] writing dependency_links to ../../../build/camera_info_manager_py/camera_info_manager_py.egg-info/dependency_links.txt
+[7.044s] writing requirements to ../../../build/camera_info_manager_py/camera_info_manager_py.egg-info/requires.txt
+[7.045s] writing top-level names to ../../../build/camera_info_manager_py/camera_info_manager_py.egg-info/top_level.txt
+[7.046s] writing manifest file '../../../build/camera_info_manager_py/camera_info_manager_py.egg-info/SOURCES.txt'
+[7.063s] reading manifest file '../../../build/camera_info_manager_py/camera_info_manager_py.egg-info/SOURCES.txt'
+[7.065s] adding license file 'LICENSE'
+[7.069s] writing manifest file '../../../build/camera_info_manager_py/camera_info_manager_py.egg-info/SOURCES.txt'
+[7.071s] running build
+[7.074s] running build_py
+[7.074s] creating /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build
+[7.075s] creating /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build/lib
+[7.076s] creating /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build/lib/camera_info_manager
+[7.077s] copying camera_info_manager/camera_info_manager.py -> /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build/lib/camera_info_manager
+[7.079s] copying camera_info_manager/zoom_camera_info_manager.py -> /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build/lib/camera_info_manager
+[7.082s] copying camera_info_manager/__init__.py -> /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build/lib/camera_info_manager
+[7.085s] running install
+[7.087s] running install_lib
+[7.093s] creating /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages/camera_info_manager
+[7.094s] copying /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build/lib/camera_info_manager/camera_info_manager.py -> /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages/camera_info_manager
+[7.096s] copying /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build/lib/camera_info_manager/zoom_camera_info_manager.py -> /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages/camera_info_manager
+[7.098s] copying /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build/lib/camera_info_manager/__init__.py -> /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages/camera_info_manager
+[7.103s] byte-compiling /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages/camera_info_manager/camera_info_manager.py to camera_info_manager.cpython-310.pyc
+[7.116s] byte-compiling /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages/camera_info_manager/zoom_camera_info_manager.py to zoom_camera_info_manager.cpython-310.pyc
+[7.124s] byte-compiling /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages/camera_info_manager/__init__.py to __init__.cpython-310.pyc
+[7.126s] running install_data
+[7.128s] creating /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/ament_index
+[7.129s] creating /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/ament_index/resource_index
+[7.130s] creating /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/ament_index/resource_index/packages
+[7.131s] copying resource/camera_info_manager_py -> /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/ament_index/resource_index/packages
+[7.131s] copying package.xml -> /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py
+[7.134s] running install_egg_info
+[7.147s] Copying ../../../build/camera_info_manager_py/camera_info_manager_py.egg-info to /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages/camera_info_manager_py-3.1.12-py3.10.egg-info
+[7.159s] running install_scripts
+[7.301s] writing list of installed files to '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/install.log'
+[7.481s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_info_manager_py' returned '0': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/camera_info_manager_py build --build-base /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build install --record /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/install.log --single-version-externally-managed install_data
