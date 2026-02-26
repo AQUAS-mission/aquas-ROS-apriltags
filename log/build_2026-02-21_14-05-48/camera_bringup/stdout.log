@@ -1,0 +1,14 @@
+running develop
+running egg_info
+creating camera_bringup.egg-info
+writing camera_bringup.egg-info/PKG-INFO
+writing dependency_links to camera_bringup.egg-info/dependency_links.txt
+writing requirements to camera_bringup.egg-info/requires.txt
+writing top-level names to camera_bringup.egg-info/top_level.txt
+writing manifest file 'camera_bringup.egg-info/SOURCES.txt'
+reading manifest file 'camera_bringup.egg-info/SOURCES.txt'
+writing manifest file 'camera_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xavier/Developer/aquas-ROS-apriltags/install/camera_bringup/lib/python3.10/site-packages/camera-bringup.egg-link (link to .)
+
+Installed /home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup

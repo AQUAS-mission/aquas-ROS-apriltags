@@ -1,0 +1,16 @@
+[2.287s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup/build --no-deps
+[3.990s] running develop
+[5.140s] running egg_info
+[5.142s] creating camera_bringup.egg-info
+[5.144s] writing camera_bringup.egg-info/PKG-INFO
+[5.145s] writing dependency_links to camera_bringup.egg-info/dependency_links.txt
+[5.146s] writing requirements to camera_bringup.egg-info/requires.txt
+[5.147s] writing top-level names to camera_bringup.egg-info/top_level.txt
+[5.148s] writing manifest file 'camera_bringup.egg-info/SOURCES.txt'
+[5.153s] reading manifest file 'camera_bringup.egg-info/SOURCES.txt'
+[5.157s] writing manifest file 'camera_bringup.egg-info/SOURCES.txt'
+[5.169s] running build_ext
+[5.174s] Creating /home/xavier/Developer/aquas-ROS-apriltags/install/camera_bringup/lib/python3.10/site-packages/camera-bringup.egg-link (link to .)
+[5.190s] 
+[5.193s] Installed /home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup
+[5.597s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup' returned '0': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup/build --no-deps

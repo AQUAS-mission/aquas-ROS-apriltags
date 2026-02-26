@@ -1,0 +1,9 @@
+dock_align.py
+setup.cfg
+setup.py
+dock_align.egg-info/PKG-INFO
+dock_align.egg-info/SOURCES.txt
+dock_align.egg-info/dependency_links.txt
+dock_align.egg-info/requires.txt
+dock_align.egg-info/top_level.txt
+dock_align.egg-info/zip-safe

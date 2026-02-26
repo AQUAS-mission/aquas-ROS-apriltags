@@ -1,0 +1,3 @@
+Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xavier/Developer/aquas-ROS-apriltags/src/apriltag -DCMAKE_INSTALL_PREFIX=/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag
+Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xavier/Developer/aquas-ROS-apriltags/src/apriltag -DCMAKE_INSTALL_PREFIX=/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag
+Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag -- -j4 -l4

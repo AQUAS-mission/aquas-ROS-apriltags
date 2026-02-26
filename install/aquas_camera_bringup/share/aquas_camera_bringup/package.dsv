@@ -1,0 +1,9 @@
+source;share/aquas_camera_bringup/hook/pythonpath.ps1
+source;share/aquas_camera_bringup/hook/pythonpath.dsv
+source;share/aquas_camera_bringup/hook/pythonpath.sh
+source;share/aquas_camera_bringup/hook/ament_prefix_path.ps1
+source;share/aquas_camera_bringup/hook/ament_prefix_path.dsv
+source;share/aquas_camera_bringup/hook/ament_prefix_path.sh
+source;../../build/aquas_camera_bringup/share/aquas_camera_bringup/hook/pythonpath_develop.ps1
+source;../../build/aquas_camera_bringup/share/aquas_camera_bringup/hook/pythonpath_develop.dsv
+source;../../build/aquas_camera_bringup/share/aquas_camera_bringup/hook/pythonpath_develop.sh

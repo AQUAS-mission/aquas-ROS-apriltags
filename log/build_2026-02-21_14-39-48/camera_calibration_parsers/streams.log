@@ -1,0 +1,11 @@
+[0.155s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers -- -j4 -l4
+[1.132s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.133s] [35m[1mConsolidate compiler generated dependencies of target camera_calibration_parsers[0m
+[1.178s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.328s] [ 14%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o[0m
+[1.362s] [ 28%] Built target gtest_main
+[1.446s] [ 35%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o[0m
+[433.773s] gmake[2]: *** [CMakeFiles/camera_calibration_parsers.dir/build.make:104: CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o] Interrupt
+[434.098s] gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[434.115s] gmake[1]: *** [CMakeFiles/Makefile2:269: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[434.127s] gmake: *** [Makefile:146: all] Interrupt

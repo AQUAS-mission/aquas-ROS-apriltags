@@ -1,0 +1,18 @@
+[6.026s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/build --no-deps symlink_data --force
+[8.379s] running develop
+[10.208s] running egg_info
+[10.209s] writing aquas_apriltag_bringup.egg-info/PKG-INFO
+[10.212s] writing dependency_links to aquas_apriltag_bringup.egg-info/dependency_links.txt
+[10.215s] writing entry points to aquas_apriltag_bringup.egg-info/entry_points.txt
+[10.216s] writing requirements to aquas_apriltag_bringup.egg-info/requires.txt
+[10.217s] writing top-level names to aquas_apriltag_bringup.egg-info/top_level.txt
+[10.231s] reading manifest file 'aquas_apriltag_bringup.egg-info/SOURCES.txt'
+[10.237s] writing manifest file 'aquas_apriltag_bringup.egg-info/SOURCES.txt'
+[10.254s] running build_ext
+[10.260s] Creating /home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages/aquas-apriltag-bringup.egg-link (link to .)
+[10.269s] 
+[10.272s] Installed /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup
+[10.273s] running symlink_data
+[10.274s] symbolically linking /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/resource/aquas_apriltag_bringup -> /home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/ament_index/resource_index/packages
+[10.275s] symbolically linking /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/package.xml -> /home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup
+[10.568s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup' returned '0': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/build --no-deps symlink_data --force
