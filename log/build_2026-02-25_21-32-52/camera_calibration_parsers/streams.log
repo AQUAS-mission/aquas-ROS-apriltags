@@ -1,0 +1,40 @@
+[0.169s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers -- -j4 -l4
+[0.661s] [ 14%] Built target gtest_main
+[0.775s] [ 28%] Built target gtest
+[0.776s] [ 57%] Built target camera_calibration_parsers
+[1.220s] [ 71%] Built target convert
+[1.298s] [ 85%] Built target camera_calibration_parsers-parse_ini
+[1.323s] [100%] Built target camera_calibration_parsers-parse_yml
+[2.801s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers -- -j4 -l4
+[2.861s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers
+[2.906s] -- Install configuration: ""
+[2.909s] -- Execute custom install script
+[2.912s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert
+[2.917s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.h
+[2.919s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.hpp
+[2.921s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.h
+[2.922s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.hpp
+[2.924s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.h
+[2.926s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.hpp
+[2.928s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/visibility_control.hpp
+[2.930s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers
+[2.933s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers
+[2.935s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh
+[2.937s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv
+[2.939s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh
+[2.942s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv
+[2.944s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash
+[2.946s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh
+[2.948s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh
+[2.951s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv
+[2.952s] -- Symlinking: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv
+[3.023s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers
+[3.024s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_targets-extras.cmake
+[3.026s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.028s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake
+[3.042s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake
+[3.051s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml
+[3.053s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+[3.055s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake
+[3.055s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport-noconfig.cmake
+[3.059s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers

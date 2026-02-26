@@ -1,0 +1,78 @@
+[0.149s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/image_transport -- -j4 -l4
+[0.739s] [  6%] Built target gtest
+[0.778s] [ 13%] Built target gtest_main
+[0.857s] [ 40%] Built target image_transport
+[1.291s] [ 46%] Built target list_transports
+[1.295s] [ 53%] Built target image_transport_plugins
+[1.336s] [ 60%] Built target image_transport-camera_common
+[1.354s] [ 66%] Built target republish
+[1.582s] [ 73%] Built target image_transport-message_passing
+[1.603s] [ 80%] Built target image_transport-remapping
+[1.634s] [ 86%] Built target image_transport-subscriber
+[1.641s] [ 93%] Built target image_transport-publisher
+[1.771s] [100%] Built target image_transport-single_subscriber_publisher
+[2.760s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/image_transport -- -j4 -l4
+[2.773s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/image_transport
+[2.852s] -- Install configuration: ""
+[2.856s] -- Execute custom install script
+[2.859s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport//default_plugins.xml
+[2.865s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib/libimage_transport.so
+[2.867s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib/libimage_transport_plugins.so
+[2.870s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib/image_transport/list_transports
+[2.873s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib/image_transport/republish
+[2.883s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/camera_common.h
+[2.886s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/camera_common.hpp
+[2.889s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/camera_publisher.h
+[2.893s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/camera_publisher.hpp
+[2.897s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/camera_subscriber.h
+[2.899s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/camera_subscriber.hpp
+[2.907s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/exception.h
+[2.915s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/exception.hpp
+[2.920s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/image_transport.h
+[2.928s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/image_transport.hpp
+[2.931s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/loader_fwds.h
+[2.936s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/loader_fwds.hpp
+[2.939s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/publisher.h
+[2.939s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/publisher.hpp
+[2.941s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/publisher_plugin.h
+[2.944s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/publisher_plugin.hpp
+[2.947s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/raw_publisher.h
+[2.947s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/raw_publisher.hpp
+[2.948s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/raw_subscriber.h
+[2.952s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/raw_subscriber.hpp
+[2.956s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.h
+[2.957s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp
+[2.957s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/simple_subscriber_plugin.h
+[2.958s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/simple_subscriber_plugin.hpp
+[2.961s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/single_subscriber_publisher.h
+[2.964s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/single_subscriber_publisher.hpp
+[2.967s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/subscriber.h
+[2.968s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/subscriber.hpp
+[2.973s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/subscriber_filter.h
+[2.973s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/subscriber_filter.hpp
+[2.974s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/subscriber_plugin.h
+[2.975s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/subscriber_plugin.hpp
+[2.980s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/transport_hints.h
+[2.981s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/transport_hints.hpp
+[2.983s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/include/image_transport/image_transport/visibility_control.hpp
+[2.984s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/ament_index/resource_index/package_run_dependencies/image_transport
+[2.984s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/ament_index/resource_index/parent_prefix_path/image_transport
+[2.985s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/environment/ament_prefix_path.sh
+[2.985s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/environment/ament_prefix_path.dsv
+[2.986s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/environment/path.sh
+[2.986s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/environment/path.dsv
+[2.987s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/local_setup.bash
+[2.987s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/local_setup.sh
+[2.988s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/local_setup.zsh
+[2.988s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/local_setup.dsv
+[2.989s] -- Symlinking: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.dsv
+[3.049s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/ament_index/resource_index/packages/image_transport
+[3.050s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/image_transport
+[3.052s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/cmake/ament_cmake_export_targets-extras.cmake
+[3.058s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.059s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/cmake/image_transportConfig.cmake
+[3.065s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/cmake/image_transportConfig-version.cmake
+[3.066s] -- Up-to-date symlink: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.xml
+[3.073s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/cmake/export_image_transportExport.cmake
+[3.074s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/cmake/export_image_transportExport-noconfig.cmake
+[3.198s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/image_transport

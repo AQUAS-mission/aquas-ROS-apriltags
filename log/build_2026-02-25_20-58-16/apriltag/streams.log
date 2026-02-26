@@ -1,0 +1,70 @@
+[0.153s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag -- -j4 -l4
+[0.554s] [35m[1mConsolidate compiler generated dependencies of target apriltag[0m
+[0.581s] [  2%] [34m[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx[0m
+[0.599s] [  4%] [34m[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx[0m
+[0.641s] [  6%] [34m[1mGenerating apriltag_estimate_tag_pose_docstring.h, apriltag_estimate_tag_pose_docstring.cxx[0m
+[0.907s] [ 86%] Built target apriltag
+[0.988s] [ 86%] Built target apriltag_py_docstrings
+[1.081s] [35m[1mConsolidate compiler generated dependencies of target apriltag_demo[0m
+[1.170s] [35m[1mConsolidate compiler generated dependencies of target apriltag.cpython-310-aarch64-linux-gnu[0m
+[1.220s] [ 90%] Built target apriltag_demo
+[1.347s] [ 95%] Built target opencv_demo
+[1.361s] [ 97%] [32mBuilding C object CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/apriltag_pywrap.c.o[0m
+[3.706s] [100%] [32m[1mLinking C shared module apriltag.cpython-310-aarch64-linux-gnu.so[0m
+[3.993s] [100%] Built target apriltag.cpython-310-aarch64-linux-gnu
+[5.359s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag -- -j4 -l4
+[5.373s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag
+[5.421s] -- Install configuration: "Release"
+[5.422s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/apriltag.h
+[5.423s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/apriltag_math.h
+[5.425s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/apriltag_pose.h
+[5.427s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/debug_print.h
+[5.429s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/doubles.h
+[5.431s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[5.433s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/floats.h
+[5.439s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/g2d.h
+[5.441s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/getopt.h
+[5.443s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/homography.h
+[5.445s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/image_types.h
+[5.446s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/image_u8.h
+[5.447s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/image_u8_parallel.h
+[5.447s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/image_u8x3.h
+[5.447s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/image_u8x4.h
+[5.448s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/matd.h
+[5.449s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/math_util.h
+[5.449s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/pam.h
+[5.450s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/pjpeg.h
+[5.450s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/pnm.h
+[5.451s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/postscript_utils.h
+[5.451s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/pthreads_cross.h
+[5.453s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/string_util.h
+[5.454s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/svd22.h
+[5.454s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/time_util.h
+[5.455s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/timeprofile.h
+[5.455s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/unionfind.h
+[5.457s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/workerpool.h
+[5.460s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/zarray.h
+[5.463s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/zhash.h
+[5.464s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/common/zmaxheap.h
+[5.465s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/tag16h5.h
+[5.465s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/tag25h9.h
+[5.466s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/tag36h10.h
+[5.466s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/tag36h11.h
+[5.467s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/tagCircle21h7.h
+[5.467s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/tagCircle49h12.h
+[5.469s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/tagCustom48h12.h
+[5.469s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/tagStandard41h12.h
+[5.470s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/include/apriltag/tagStandard52h13.h
+[5.470s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/libapriltag.so.3.4.5
+[5.471s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/libapriltag.so.3
+[5.472s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/libapriltag.so
+[5.473s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/apriltag/cmake/apriltagTargets.cmake
+[5.474s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/apriltag/cmake/apriltagTargets-release.cmake
+[5.474s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/apriltag/cmake/apriltagConfig.cmake
+[5.475s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/apriltag/cmake/apriltagConfigVersion.cmake
+[5.476s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/pkgconfig/apriltag.pc
+[5.476s] -- Installing: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-aarch64-linux-gnu.so
+[5.477s] -- Set runtime path of "/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-aarch64-linux-gnu.so" to ""
+[5.478s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/bin/opencv_demo
+[5.478s] -- Up-to-date: /home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/bin/apriltag_demo
+[5.494s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag

@@ -1,0 +1,745 @@
+[0.567s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.568s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8a87db10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8aa1afe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8aa1afe0>>)
+[1.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.528s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xavier/Developer/aquas-ROS-apriltags'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag) by extensions ['ignore', 'ignore_ament_install']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag) by extension 'ignore'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag) by extension 'ignore_ament_install'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag) by extensions ['colcon_pkg']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag) by extension 'colcon_pkg'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag) by extensions ['colcon_meta']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag) by extension 'colcon_meta'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag) by extensions ['ros']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag) by extension 'ros'
+[1.620s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag' with type 'ros.cmake' and name 'apriltag'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore_ament_install'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_pkg']
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_pkg'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_meta']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_meta'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ros']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ros'
+[1.630s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_apriltag_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_apriltag_bringup) by extension 'ignore'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_apriltag_bringup) by extension 'ignore_ament_install'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_apriltag_bringup) by extensions ['colcon_pkg']
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_apriltag_bringup) by extension 'colcon_pkg'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_apriltag_bringup) by extensions ['colcon_meta']
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_apriltag_bringup) by extension 'colcon_meta'
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_apriltag_bringup) by extensions ['ros']
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_apriltag_bringup) by extension 'ros'
+[1.636s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aquas_apriltag_bringup' with type 'ros.ament_python' and name 'aquas_apriltag_bringup'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_camera_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_camera_bringup) by extension 'ignore'
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_camera_bringup) by extension 'ignore_ament_install'
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_camera_bringup) by extensions ['colcon_pkg']
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_camera_bringup) by extension 'colcon_pkg'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_camera_bringup) by extensions ['colcon_meta']
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_camera_bringup) by extension 'colcon_meta'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_camera_bringup) by extensions ['ros']
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_camera_bringup) by extension 'ros'
+[1.641s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aquas_camera_bringup' with type 'ros.ament_python' and name 'aquas_camera_bringup'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_dock_align) by extensions ['ignore', 'ignore_ament_install']
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_dock_align) by extension 'ignore'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_dock_align) by extension 'ignore_ament_install'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_dock_align) by extensions ['colcon_pkg']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_dock_align) by extension 'colcon_pkg'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_dock_align) by extensions ['colcon_meta']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_dock_align) by extension 'colcon_meta'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_dock_align) by extensions ['ros']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/aquas_dock_align) by extension 'ros'
+[1.647s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aquas_dock_align' with type 'ros.ament_python' and name 'aquas_dock_align'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ignore', 'ignore_ament_install']
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore_ament_install'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_pkg']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_pkg'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_meta']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_meta'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ros']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ros'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['cmake', 'python']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'cmake'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['python_setup_py']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python_setup_py'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ignore', 'ignore_ament_install']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore_ament_install'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_pkg']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_pkg'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_meta']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_meta'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ros']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ros'
+[1.657s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_calibration_parsers' with type 'ros.ament_cmake' and name 'camera_calibration_parsers'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ignore', 'ignore_ament_install']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore_ament_install'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_pkg']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_pkg'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_meta']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_meta'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ros']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ros'
+[1.664s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager' with type 'ros.ament_cmake' and name 'camera_info_manager'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['ignore', 'ignore_ament_install']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'ignore'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'ignore_ament_install'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['colcon_pkg']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'colcon_pkg'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['colcon_meta']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'colcon_meta'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['ros']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'ros'
+[1.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager_py' with type 'ros.ament_python' and name 'camera_info_manager_py'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ignore', 'ignore_ament_install']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore_ament_install'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_pkg']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_pkg'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_meta']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_meta'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ros']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ros'
+[1.677s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_common' with type 'ros.ament_cmake' and name 'image_common'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ignore', 'ignore_ament_install']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore_ament_install'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_pkg']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_pkg'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_meta']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_meta'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ros']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ros'
+[1.683s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_transport' with type 'ros.ament_cmake' and name 'image_transport'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extension 'ignore'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) ignored
+[1.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.852s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/xavier/Developer/aquas-ROS-apriltags/install
+[1.864s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[1.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.076s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'image_transport' is in: /home/xavier/Developer/aquas-ROS-apriltags/install/image_transport, /opt/ros/humble
+	'camera_info_manager' is in: /home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding camera_info_manager image_transport
+
+This may be promoted to an error in a future release of colcon-override-check.
+[2.080s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_args' from command line to 'None'
+[2.080s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_target' from command line to 'None'
+[2.080s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.080s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_clean_cache' from command line to 'False'
+[2.081s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_clean_first' from command line to 'False'
+[2.081s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_force_configure' from command line to 'False'
+[2.081s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'ament_cmake_args' from command line to 'None'
+[2.081s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'catkin_cmake_args' from command line to 'None'
+[2.081s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.081s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag', 'merge_install': False, 'path': '/home/xavier/Developer/aquas-ROS-apriltags/src/apriltag', 'symlink_install': True, 'test_result_base': None}
+[2.083s] Level 5:colcon.colcon_core.verb:set package 'aquas_apriltag_bringup' build argument 'cmake_args' from command line to 'None'
+[2.083s] Level 5:colcon.colcon_core.verb:set package 'aquas_apriltag_bringup' build argument 'cmake_target' from command line to 'None'
+[2.083s] Level 5:colcon.colcon_core.verb:set package 'aquas_apriltag_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.083s] Level 5:colcon.colcon_core.verb:set package 'aquas_apriltag_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.084s] Level 5:colcon.colcon_core.verb:set package 'aquas_apriltag_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.084s] Level 5:colcon.colcon_core.verb:set package 'aquas_apriltag_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.084s] Level 5:colcon.colcon_core.verb:set package 'aquas_apriltag_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.084s] Level 5:colcon.colcon_core.verb:set package 'aquas_apriltag_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.084s] Level 5:colcon.colcon_core.verb:set package 'aquas_apriltag_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.084s] DEBUG:colcon.colcon_core.verb:Building package 'aquas_apriltag_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup', 'merge_install': False, 'path': '/home/xavier/Developer/aquas-ROS-apriltags/src/aquas_apriltag_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'aquas_camera_bringup' build argument 'cmake_args' from command line to 'None'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'aquas_camera_bringup' build argument 'cmake_target' from command line to 'None'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'aquas_camera_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'aquas_camera_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'aquas_camera_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'aquas_camera_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.087s] Level 5:colcon.colcon_core.verb:set package 'aquas_camera_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.087s] Level 5:colcon.colcon_core.verb:set package 'aquas_camera_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.087s] Level 5:colcon.colcon_core.verb:set package 'aquas_camera_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.087s] DEBUG:colcon.colcon_core.verb:Building package 'aquas_camera_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup', 'merge_install': False, 'path': '/home/xavier/Developer/aquas-ROS-apriltags/src/aquas_camera_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.089s] Level 5:colcon.colcon_core.verb:set package 'aquas_dock_align' build argument 'cmake_args' from command line to 'None'
+[2.089s] Level 5:colcon.colcon_core.verb:set package 'aquas_dock_align' build argument 'cmake_target' from command line to 'None'
+[2.089s] Level 5:colcon.colcon_core.verb:set package 'aquas_dock_align' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.089s] Level 5:colcon.colcon_core.verb:set package 'aquas_dock_align' build argument 'cmake_clean_cache' from command line to 'False'
+[2.089s] Level 5:colcon.colcon_core.verb:set package 'aquas_dock_align' build argument 'cmake_clean_first' from command line to 'False'
+[2.089s] Level 5:colcon.colcon_core.verb:set package 'aquas_dock_align' build argument 'cmake_force_configure' from command line to 'False'
+[2.089s] Level 5:colcon.colcon_core.verb:set package 'aquas_dock_align' build argument 'ament_cmake_args' from command line to 'None'
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'aquas_dock_align' build argument 'catkin_cmake_args' from command line to 'None'
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'aquas_dock_align' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.090s] DEBUG:colcon.colcon_core.verb:Building package 'aquas_dock_align' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align', 'merge_install': False, 'path': '/home/xavier/Developer/aquas-ROS-apriltags/src/aquas_dock_align', 'symlink_install': True, 'test_result_base': None}
+[2.091s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_args' from command line to 'None'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_target' from command line to 'None'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_clean_cache' from command line to 'False'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_clean_first' from command line to 'False'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_force_configure' from command line to 'False'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'ament_cmake_args' from command line to 'None'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'catkin_cmake_args' from command line to 'None'
+[2.093s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.093s] DEBUG:colcon.colcon_core.verb:Building package 'camera_calibration_parsers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers', 'merge_install': False, 'path': '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_calibration_parsers', 'symlink_install': True, 'test_result_base': None}
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager_py' build argument 'cmake_args' from command line to 'None'
+[2.095s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager_py' build argument 'cmake_target' from command line to 'None'
+[2.095s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.095s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.095s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.095s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.095s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.095s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.095s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.096s] DEBUG:colcon.colcon_core.verb:Building package 'camera_info_manager_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py', 'merge_install': False, 'path': '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_info_manager_py', 'symlink_install': True, 'test_result_base': None}
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_args' from command line to 'None'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_target' from command line to 'None'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.098s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[2.098s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[2.098s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[2.098s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[2.098s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[2.098s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.098s] DEBUG:colcon.colcon_core.verb:Building package 'image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport', 'merge_install': False, 'path': '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/image_transport', 'symlink_install': True, 'test_result_base': None}
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[2.100s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.101s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.101s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.101s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.101s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.101s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.101s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.101s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros', 'merge_install': False, 'path': '/home/xavier/Developer/aquas-ROS-apriltags/src/apriltag_ros', 'symlink_install': True, 'test_result_base': None}
+[2.103s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_args' from command line to 'None'
+[2.103s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_target' from command line to 'None'
+[2.103s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.103s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_clean_first' from command line to 'False'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_force_configure' from command line to 'False'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'ament_cmake_args' from command line to 'None'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.104s] DEBUG:colcon.colcon_core.verb:Building package 'camera_info_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager', 'merge_install': False, 'path': '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_info_manager', 'symlink_install': True, 'test_result_base': None}
+[2.106s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_args' from command line to 'None'
+[2.106s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_target' from command line to 'None'
+[2.106s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.106s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_clean_cache' from command line to 'False'
+[2.106s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_clean_first' from command line to 'False'
+[2.107s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_force_configure' from command line to 'False'
+[2.107s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'ament_cmake_args' from command line to 'None'
+[2.107s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'catkin_cmake_args' from command line to 'None'
+[2.107s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.107s] DEBUG:colcon.colcon_core.verb:Building package 'image_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xavier/Developer/aquas-ROS-apriltags/build/image_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common', 'merge_install': False, 'path': '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/image_common', 'symlink_install': True, 'test_result_base': None}
+[2.108s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.113s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_calibration_parsers' with build type 'ament_cmake'
+[2.114s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_calibration_parsers'
+[2.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.129s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.129s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.157s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/image_transport' with build type 'ament_cmake'
+[2.158s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/image_transport'
+[2.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.188s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/xavier/Developer/aquas-ROS-apriltags/src/apriltag' with build type 'cmake'
+[2.189s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xavier/Developer/aquas-ROS-apriltags/src/apriltag'
+[2.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.219s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xavier/Developer/aquas-ROS-apriltags/src/aquas_apriltag_bringup' with build type 'ament_python'
+[2.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('aquas_apriltag_bringup', 'ament_prefix_path')
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/hook/ament_prefix_path.ps1'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/hook/ament_prefix_path.dsv'
+[2.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/hook/ament_prefix_path.sh'
+[2.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers -- -j4 -l4
+[2.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/image_transport -- -j4 -l4
+[2.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag -- -j4 -l4
+[4.894s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xavier/Developer/aquas-ROS-apriltags/src/aquas_apriltag_bringup'
+[4.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers -- -j4 -l4
+[4.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers
+[4.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/image_transport -- -j4 -l4
+[5.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/image_transport
+[5.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration_parsers)
+[5.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/camera_calibration_parsers
+[5.226s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers' for CMake module files
+[5.232s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers' for CMake config files
+[5.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'cmake_prefix_path')
+[5.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.ps1'
+[5.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.dsv'
+[5.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.sh'
+[5.267s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib'
+[5.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'ld_library_path_lib')
+[5.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.ps1'
+[5.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.dsv'
+[5.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.sh'
+[5.286s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/bin'
+[5.287s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib/pkgconfig/camera_calibration_parsers.pc'
+[5.289s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib/python3.10/site-packages'
+[5.291s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/bin'
+[5.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.ps1'
+[5.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv'
+[5.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.sh'
+[5.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.bash'
+[5.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.zsh'
+[5.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/colcon-core/packages/camera_calibration_parsers)
+[5.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration_parsers)
+[5.321s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers' for CMake module files
+[5.326s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers' for CMake config files
+[5.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'cmake_prefix_path')
+[5.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.ps1'
+[5.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.dsv'
+[5.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.sh'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib'
+[5.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'ld_library_path_lib')
+[5.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.ps1'
+[5.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.dsv'
+[5.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.sh'
+[5.355s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/bin'
+[5.356s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib/pkgconfig/camera_calibration_parsers.pc'
+[5.357s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib/python3.10/site-packages'
+[5.360s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/bin'
+[5.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.ps1'
+[5.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv'
+[5.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.sh'
+[5.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.bash'
+[5.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/camera_calibration_parsers/package.zsh'
+[5.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/share/colcon-core/packages/camera_calibration_parsers)
+[5.385s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_info_manager' with build type 'ament_cmake'
+[5.386s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_info_manager'
+[5.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport)
+[5.426s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport' for CMake module files
+[5.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/image_transport
+[5.433s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport' for CMake config files
+[5.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'cmake_prefix_path')
+[5.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/cmake_prefix_path.ps1'
+[5.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/cmake_prefix_path.dsv'
+[5.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/cmake_prefix_path.sh'
+[5.450s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib'
+[5.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'ld_library_path_lib')
+[5.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/ld_library_path_lib.ps1'
+[5.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/ld_library_path_lib.dsv'
+[5.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/ld_library_path_lib.sh'
+[5.459s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/bin'
+[5.460s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib/pkgconfig/image_transport.pc'
+[5.461s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib/python3.10/site-packages'
+[5.463s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/bin'
+[5.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.ps1'
+[5.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.dsv'
+[5.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.sh'
+[5.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.bash'
+[5.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.zsh'
+[5.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/colcon-core/packages/image_transport)
+[5.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport)
+[5.484s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport' for CMake module files
+[5.488s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport' for CMake config files
+[5.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'cmake_prefix_path')
+[5.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/cmake_prefix_path.ps1'
+[5.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/cmake_prefix_path.dsv'
+[5.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/cmake_prefix_path.sh'
+[5.506s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib'
+[5.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'ld_library_path_lib')
+[5.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/ld_library_path_lib.ps1'
+[5.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/ld_library_path_lib.dsv'
+[5.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/hook/ld_library_path_lib.sh'
+[5.515s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/bin'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib/pkgconfig/image_transport.pc'
+[5.517s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib/python3.10/site-packages'
+[5.519s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/bin'
+[5.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.ps1'
+[5.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.dsv'
+[5.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.sh'
+[5.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.bash'
+[5.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/package.zsh'
+[5.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/colcon-core/packages/image_transport)
+[5.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag -- -j4 -l4
+[5.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag
+[5.554s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xavier/Developer/aquas-ROS-apriltags/src/aquas_camera_bringup' with build type 'ament_python'
+[5.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('aquas_camera_bringup', 'ament_prefix_path')
+[5.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/hook/ament_prefix_path.ps1'
+[5.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/hook/ament_prefix_path.dsv'
+[5.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/hook/ament_prefix_path.sh'
+[5.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager -- -j4 -l4
+[7.393s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xavier/Developer/aquas-ROS-apriltags/src/aquas_camera_bringup'
+[7.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag
+[7.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'pkg_config_path')
+[7.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pkg_config_path.ps1'
+[7.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pkg_config_path.dsv'
+[7.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pkg_config_path.sh'
+[7.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'pkg_config_path_multiarch')
+[7.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pkg_config_path_multiarch.ps1'
+[7.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pkg_config_path_multiarch.dsv'
+[7.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pkg_config_path_multiarch.sh'
+[7.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag)
+[7.467s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag' for CMake module files
+[7.471s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag' for CMake config files
+[7.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'cmake_prefix_path')
+[7.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/cmake_prefix_path.ps1'
+[7.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/cmake_prefix_path.dsv'
+[7.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/cmake_prefix_path.sh'
+[7.483s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib'
+[7.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'ld_library_path_lib')
+[7.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/ld_library_path_lib.ps1'
+[7.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/ld_library_path_lib.dsv'
+[7.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/ld_library_path_lib.sh'
+[7.492s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/bin'
+[7.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'path')
+[7.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/path.ps1'
+[7.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/path.dsv'
+[7.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/path.sh'
+[7.501s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/pkgconfig/apriltag.pc'
+[7.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'pkg_config')
+[7.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pkg_config.ps1'
+[7.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pkg_config.dsv'
+[7.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pkg_config.sh'
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/python3.10/site-packages'
+[7.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'pythonpath')
+[7.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pythonpath.ps1'
+[7.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pythonpath.dsv'
+[7.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pythonpath.sh'
+[7.519s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/bin'
+[7.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'pythonscriptspath')
+[7.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pythonscriptspath.ps1'
+[7.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pythonscriptspath.dsv'
+[7.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/hook/pythonscriptspath.sh'
+[7.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/package.ps1'
+[7.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/package.dsv'
+[7.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/package.sh'
+[7.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/package.bash'
+[7.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/apriltag/package.zsh'
+[7.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/share/colcon-core/packages/apriltag)
+[7.552s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xavier/Developer/aquas-ROS-apriltags/src/aquas_dock_align' with build type 'ament_python'
+[7.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('aquas_dock_align', 'ament_prefix_path')
+[7.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/hook/ament_prefix_path.ps1'
+[7.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/hook/ament_prefix_path.dsv'
+[7.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/hook/ament_prefix_path.sh'
+[7.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.563s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager' returned '0': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager -- -j4 -l4
+[7.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager
+[7.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/build --no-deps symlink_data
+[9.493s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xavier/Developer/aquas-ROS-apriltags/src/aquas_dock_align'
+[9.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_manager)
+[9.535s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager' for CMake module files
+[9.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager' returned '0': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager
+[9.539s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager' for CMake config files
+[9.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'cmake_prefix_path')
+[9.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.ps1'
+[9.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.dsv'
+[9.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.sh'
+[9.554s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib'
+[9.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'ld_library_path_lib')
+[9.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.ps1'
+[9.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.dsv'
+[9.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.sh'
+[9.565s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/bin'
+[9.566s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib/pkgconfig/camera_info_manager.pc'
+[9.567s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib/python3.10/site-packages'
+[9.569s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/bin'
+[9.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/package.ps1'
+[9.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/package.dsv'
+[9.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/package.sh'
+[9.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/package.bash'
+[9.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/package.zsh'
+[9.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/colcon-core/packages/camera_info_manager)
+[9.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_manager)
+[9.592s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager' for CMake module files
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager' for CMake config files
+[9.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'cmake_prefix_path')
+[9.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.ps1'
+[9.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.dsv'
+[9.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.sh'
+[9.611s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib'
+[9.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'ld_library_path_lib')
+[9.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.ps1'
+[9.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.dsv'
+[9.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.sh'
+[9.622s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/bin'
+[9.622s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib/pkgconfig/camera_info_manager.pc'
+[9.624s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib/python3.10/site-packages'
+[9.626s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/bin'
+[9.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/package.ps1'
+[9.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/package.dsv'
+[9.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/package.sh'
+[9.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/package.bash'
+[9.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/package.zsh'
+[9.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/colcon-core/packages/camera_info_manager)
+[9.650s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_info_manager_py' with build type 'ament_python'
+[9.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager_py', 'ament_prefix_path')
+[9.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/hook/ament_prefix_path.ps1'
+[9.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/hook/ament_prefix_path.dsv'
+[9.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/hook/ament_prefix_path.sh'
+[9.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.654s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_info_manager_py'
+[11.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.656s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('aquas_apriltag_bringup', 'pythonpath_develop')
+[11.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/share/aquas_apriltag_bringup/hook/pythonpath_develop.ps1'
+[11.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup' returned '0': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/build --no-deps symlink_data
+[11.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/share/aquas_apriltag_bringup/hook/pythonpath_develop.dsv'
+[11.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup/share/aquas_apriltag_bringup/hook/pythonpath_develop.sh'
+[11.710s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup' for CMake module files
+[11.713s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup' for CMake config files
+[11.717s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib'
+[11.718s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/bin'
+[11.718s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/pkgconfig/aquas_apriltag_bringup.pc'
+[11.719s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages'
+[11.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('aquas_apriltag_bringup', 'pythonpath')
+[11.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/hook/pythonpath.ps1'
+[11.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/hook/pythonpath.dsv'
+[11.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/hook/pythonpath.sh'
+[11.730s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/bin'
+[11.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aquas_apriltag_bringup)
+[11.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/package.ps1'
+[11.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/package.dsv'
+[11.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/package.sh'
+[11.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/package.bash'
+[11.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/aquas_apriltag_bringup/package.zsh'
+[11.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/share/colcon-core/packages/aquas_apriltag_bringup)
+[11.762s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xavier/Developer/aquas-ROS-apriltags/src/apriltag_ros' with build type 'ament_cmake'
+[11.763s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xavier/Developer/aquas-ROS-apriltags/src/apriltag_ros'
+[11.764s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.764s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/build --no-deps symlink_data
+[11.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/dock_align/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_ros -- -j4 -l4
+[12.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/build --no-deps symlink_data
+[12.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/dock_align/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_ros -- -j4 -l4
+[12.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/dock_align/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_ros
+[13.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[13.145s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros' for CMake module files
+[13.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/dock_align/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_apriltag_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup/lib/python3.10/site-packages:/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_ros
+[13.151s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros' for CMake config files
+[13.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[13.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[13.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[13.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[13.169s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib'
+[13.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[13.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[13.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[13.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[13.181s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/bin'
+[13.181s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[13.183s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib/python3.10/site-packages'
+[13.185s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/bin'
+[13.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[13.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[13.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/package.sh'
+[13.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/package.bash'
+[13.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[13.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[13.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[13.209s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros' for CMake module files
+[13.213s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros' for CMake config files
+[13.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[13.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[13.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[13.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[13.230s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib'
+[13.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[13.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[13.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[13.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[13.242s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/bin'
+[13.243s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[13.244s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib/python3.10/site-packages'
+[13.246s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/bin'
+[13.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[13.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[13.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/package.sh'
+[13.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/package.bash'
+[13.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[13.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[13.273s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/image_common' with build type 'ament_cmake'
+[13.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/image_common'
+[13.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_common': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/image_common -- -j4 -l4
+[13.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_common' returned '0': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xavier/Developer/aquas-ROS-apriltags/build/image_common -- -j4 -l4
+[13.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_common': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/image_common
+[13.807s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_common)
+[13.808s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common' for CMake module files
+[13.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/image_common' returned '0': CMAKE_PREFIX_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers:/home/xavier/Developer/aquas-ROS-apriltags/install/image_common:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_apriltag_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_calibration_parsers/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag_ros/lib:/home/xavier/Developer/aquas-ROS-apriltags/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xavier/Developer/aquas-ROS-apriltags/build/image_common
+[13.815s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common' for CMake config files
+[13.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_common', 'cmake_prefix_path')
+[13.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/hook/cmake_prefix_path.ps1'
+[13.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/hook/cmake_prefix_path.dsv'
+[13.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/hook/cmake_prefix_path.sh'
+[13.832s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/bin'
+[13.832s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/lib/pkgconfig/image_common.pc'
+[13.834s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/lib/python3.10/site-packages'
+[13.836s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/bin'
+[13.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/package.ps1'
+[13.843s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/package.dsv'
+[13.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/package.sh'
+[13.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/package.bash'
+[13.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/package.zsh'
+[13.856s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/colcon-core/packages/image_common)
+[13.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_common)
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common' for CMake module files
+[13.870s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common' for CMake config files
+[13.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_common', 'cmake_prefix_path')
+[13.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/hook/cmake_prefix_path.ps1'
+[13.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/hook/cmake_prefix_path.dsv'
+[13.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/hook/cmake_prefix_path.sh'
+[13.887s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/bin'
+[13.888s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/lib/pkgconfig/image_common.pc'
+[13.889s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/lib/python3.10/site-packages'
+[13.892s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/bin'
+[13.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/package.ps1'
+[13.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/package.dsv'
+[13.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/package.sh'
+[13.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/package.bash'
+[13.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/image_common/package.zsh'
+[13.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/image_common/share/colcon-core/packages/image_common)
+[14.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build --no-deps symlink_data
+[15.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('aquas_camera_bringup', 'pythonpath_develop')
+[15.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/share/aquas_camera_bringup/hook/pythonpath_develop.ps1'
+[15.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup' returned '0': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/build --no-deps symlink_data
+[15.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/share/aquas_camera_bringup/hook/pythonpath_develop.dsv'
+[15.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_camera_bringup/share/aquas_camera_bringup/hook/pythonpath_develop.sh'
+[15.595s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup' for CMake module files
+[15.598s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup' for CMake config files
+[15.603s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib'
+[15.604s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/bin'
+[15.604s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/pkgconfig/aquas_camera_bringup.pc'
+[15.605s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/lib/python3.10/site-packages'
+[15.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('aquas_camera_bringup', 'pythonpath')
+[15.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/hook/pythonpath.ps1'
+[15.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/hook/pythonpath.dsv'
+[15.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/hook/pythonpath.sh'
+[15.617s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/bin'
+[15.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aquas_camera_bringup)
+[15.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/package.ps1'
+[15.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/package.dsv'
+[15.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/package.sh'
+[15.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/package.bash'
+[15.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/aquas_camera_bringup/package.zsh'
+[15.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_camera_bringup/share/colcon-core/packages/aquas_camera_bringup)
+[15.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('aquas_dock_align', 'pythonpath_develop')
+[15.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/share/aquas_dock_align/hook/pythonpath_develop.ps1'
+[15.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align' returned '0': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/build --no-deps symlink_data
+[15.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/share/aquas_dock_align/hook/pythonpath_develop.dsv'
+[15.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/share/aquas_dock_align/hook/pythonpath_develop.sh'
+[15.961s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align' for CMake module files
+[15.964s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align' for CMake config files
+[15.968s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib'
+[15.968s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/bin'
+[15.969s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/pkgconfig/aquas_dock_align.pc'
+[15.970s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/python3.10/site-packages'
+[15.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('aquas_dock_align', 'pythonpath')
+[15.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/hook/pythonpath.ps1'
+[15.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/hook/pythonpath.dsv'
+[15.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/hook/pythonpath.sh'
+[15.980s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/bin'
+[15.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aquas_dock_align)
+[15.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/package.ps1'
+[15.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/package.dsv'
+[15.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/package.sh'
+[15.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/package.bash'
+[15.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/aquas_dock_align/package.zsh'
+[15.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/share/colcon-core/packages/aquas_dock_align)
+[17.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager_py', 'pythonpath_develop')
+[17.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/share/camera_info_manager_py/hook/pythonpath_develop.ps1'
+[17.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py' returned '0': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/build --no-deps symlink_data
+[17.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/share/camera_info_manager_py/hook/pythonpath_develop.dsv'
+[17.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/build/camera_info_manager_py/share/camera_info_manager_py/hook/pythonpath_develop.sh'
+[17.473s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py' for CMake module files
+[17.476s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py' for CMake config files
+[17.480s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib'
+[17.480s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/bin'
+[17.481s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/pkgconfig/camera_info_manager_py.pc'
+[17.482s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/lib/python3.10/site-packages'
+[17.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager_py', 'pythonpath')
+[17.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/hook/pythonpath.ps1'
+[17.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/hook/pythonpath.dsv'
+[17.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/hook/pythonpath.sh'
+[17.492s] Level 1:colcon.colcon_core.environment:checking '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/bin'
+[17.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_manager_py)
+[17.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/package.ps1'
+[17.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/package.dsv'
+[17.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/package.sh'
+[17.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/package.bash'
+[17.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/camera_info_manager_py/package.zsh'
+[17.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager_py/share/colcon-core/packages/camera_info_manager_py)
+[17.508s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.511s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.549s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.550s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.550s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.557s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[17.557s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.558s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xavier/Developer/aquas-ROS-apriltags/install/local_setup.ps1'
+[17.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xavier/Developer/aquas-ROS-apriltags/install/_local_setup_util_ps1.py'
+[17.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xavier/Developer/aquas-ROS-apriltags/install/setup.ps1'
+[17.581s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xavier/Developer/aquas-ROS-apriltags/install/local_setup.sh'
+[17.584s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xavier/Developer/aquas-ROS-apriltags/install/_local_setup_util_sh.py'
+[17.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xavier/Developer/aquas-ROS-apriltags/install/setup.sh'
+[17.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xavier/Developer/aquas-ROS-apriltags/install/local_setup.bash'
+[17.598s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xavier/Developer/aquas-ROS-apriltags/install/setup.bash'
+[17.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xavier/Developer/aquas-ROS-apriltags/install/local_setup.zsh'
+[17.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xavier/Developer/aquas-ROS-apriltags/install/setup.zsh'

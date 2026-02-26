@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'aquas_apriltag_bringup = aquas_apriltag_bringup.__init__:main',
         ],
     },
 )

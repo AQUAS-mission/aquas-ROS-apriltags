@@ -1,0 +1,16 @@
+[4.517s] Invoking command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/build --no-deps symlink_data
+[6.816s] running develop
+[8.148s] running egg_info
+[8.149s] writing aquas_dock_align.egg-info/PKG-INFO
+[8.150s] writing dependency_links to aquas_dock_align.egg-info/dependency_links.txt
+[8.151s] writing entry points to aquas_dock_align.egg-info/entry_points.txt
+[8.152s] writing requirements to aquas_dock_align.egg-info/requires.txt
+[8.153s] writing top-level names to aquas_dock_align.egg-info/top_level.txt
+[8.162s] reading manifest file 'aquas_dock_align.egg-info/SOURCES.txt'
+[8.167s] writing manifest file 'aquas_dock_align.egg-info/SOURCES.txt'
+[8.175s] running build_ext
+[8.176s] Creating /home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/python3.10/site-packages/aquas-dock-align.egg-link (link to .)
+[8.181s] 
+[8.182s] Installed /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align
+[8.182s] running symlink_data
+[8.345s] Invoked command in '/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align' returned '0': PYTHONPATH=/home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Developer/aquas-ROS-apriltags/install/aquas_dock_align/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xavier/Developer/aquas-ROS-apriltags/build/aquas_dock_align/build --no-deps symlink_data
