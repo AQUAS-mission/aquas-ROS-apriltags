@@ -1,3 +1,0 @@
-/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/lib/libcamera_info_manager.so
-/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport.cmake
-/home/xavier/Developer/aquas-ROS-apriltags/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport-noconfig.cmake
