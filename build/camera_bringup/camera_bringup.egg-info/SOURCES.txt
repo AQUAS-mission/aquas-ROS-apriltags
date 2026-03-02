@@ -1,9 +1,0 @@
-camera_bringup.py
-setup.cfg
-setup.py
-camera_bringup.egg-info/PKG-INFO
-camera_bringup.egg-info/SOURCES.txt
-camera_bringup.egg-info/dependency_links.txt
-camera_bringup.egg-info/requires.txt
-camera_bringup.egg-info/top_level.txt
-camera_bringup.egg-info/zip-safe

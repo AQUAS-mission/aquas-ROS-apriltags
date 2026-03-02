@@ -1,2 +1,0 @@
-/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/cmake/export_image_transportExport.cmake
-/home/xavier/Developer/aquas-ROS-apriltags/install/image_transport/share/image_transport/cmake/export_image_transportExport-noconfig.cmake

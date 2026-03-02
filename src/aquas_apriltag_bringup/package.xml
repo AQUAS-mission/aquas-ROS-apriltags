@@ -4,17 +4,19 @@
   <name>aquas_apriltag_bringup</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="xavier@todo.todo">xavier</maintainer>
+  <maintainer email="xavier.wood2025@gmail.com">xavier</maintainer>
   <license>TODO: License declaration</license>
 
-  <depend>rclpy</depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <test_depend>ament_copyright</test_depend>
-  <test_depend>ament_flake8</test_depend>
-  <test_depend>ament_pep257</test_depend>
-  <test_depend>python3-pytest</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>v4l2_camera</exec_depend>
+  <exec_depend>apriltag_ros</exec_depend>
 
   <export>
-    <build_type>ament_python</build_type>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>

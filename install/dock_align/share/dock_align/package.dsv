@@ -1,6 +1,0 @@
-source;share/dock_align/hook/pythonpath.ps1
-source;share/dock_align/hook/pythonpath.dsv
-source;share/dock_align/hook/pythonpath.sh
-source;../../build/dock_align/share/dock_align/hook/pythonpath_develop.ps1
-source;../../build/dock_align/share/dock_align/hook/pythonpath_develop.dsv
-source;../../build/dock_align/share/dock_align/hook/pythonpath_develop.sh
