@@ -1,1 +1,0 @@
-/home/xavier/Developer/aquas-ROS-apriltags/src/aquas_camera_bringup/setup.py

@@ -1,1 +1,0 @@
-/home/xavier/Developer/aquas-ROS-apriltags/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.h

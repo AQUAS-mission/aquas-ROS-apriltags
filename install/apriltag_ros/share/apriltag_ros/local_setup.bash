@@ -1,1 +1,0 @@
-/home/xavier/Developer/aquas-ROS-apriltags/build/apriltag_ros/ament_cmake_environment_hooks/local_setup.bash
