@@ -6,9 +6,14 @@ import os
 def generate_launch_description():
 
     pkg_share = get_package_share_directory('aquas_apriltag_bringup')
+    
+    
 
-    apriltag_params = os.path.join(pkg_share, 'config', 'apriltag.yaml')
-    camera_params = os.path.join(pkg_share, 'config', 'camera.yaml')
+    apriltag_params = {"family": "36h11",
+    "size": 0.165 }
+    camera_params = { "camera_info_url": "file:///home/xavier/Developer/aquas-ROS-apriltags/src/aquas_apriltag_bringup/config/my_camera_calibration.yaml",
+    "camera_name": "my_camera",
+    "device": "/dev/video0"}
 
     camera_node = Node(
         package='v4l2_camera',

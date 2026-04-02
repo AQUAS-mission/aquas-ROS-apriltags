@@ -1,3 +1,6 @@
 v4l2_camera_node:
   ros__parameters:
+  camera_info_url: "file:///home/xavier/Developer/aquas-ROS-apriltags/src/aquas_apriltag_bringup/config/my_camera_calibration.yaml"
+    camera_name: "my_camera"
     device: "/dev/video0"
+    # This tells the driver where to find the actual calibration matrices
